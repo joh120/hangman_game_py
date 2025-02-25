@@ -9,9 +9,9 @@ fully displayed.
 Inspiration
 
 The popular hangman game in which a one person put down a hint in terms of dashes to represent a word. 
-Another person guesses letters of the word the person who knows the word with every wrong guess 
-lead to draw another part of the hangman. The game ends either when the person guessing gets all the letters right 
-or the hangman becomes complete 
+Another person guesses letters of the word and with every wrong guess leading drawing a part of the hangman. 
+The game ends either when the person guessing gets all the letters right 
+or the hangman drawing becomes complete.
 
 Challenges we ran into 
 
