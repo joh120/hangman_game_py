@@ -33,7 +33,7 @@ def answer_display(): this takes in the random word and seperates it with a spac
 This will shown if all characters by the user is guessed correctly. Also, the answer will be shown 
 at the end of the game whether the user win or lose. 
 
-def hangman_display(): this takes in the wrong guesses and display a part of the hangman ascii art 
+def hangman_display(): this takes in the wrong guesses and prints a part of the hangman ascii art 
 for every time they make a wrong guess.
 
 def main(): this takes a random word from a list of words and prompts the user to guess the correct characters of 
