@@ -1,6 +1,6 @@
 Hangman game
 
-A hangman game that prompts user to guess correctly the characters of a random word. 
+A hangman game that prompts the user to guess correctly the characters of a random word. 
 The user will be given a hint of the amount of letters for the random word that they are guessing.
 For every wrong character guessed a part of the hangman ascii art gets displayed. The game keeps 
 going either until the user guesses all the characters correctly or that the hangman ascii art gets 
