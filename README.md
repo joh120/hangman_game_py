@@ -8,16 +8,16 @@ fully displayed.
 
 Inspiration
 
-The popular hangman game in which a one person put down a hint in terms if dashes to represent a word. 
+The popular hangman game in which a one person put down a hint in terms of dashes to represent a word. 
 Another person guesses letters of the word the person who knows the word with every wrong guess 
 lead to draw another part of the hangman. The game ends either when the person guessing gets all the letters right 
 or the hangman becomes complete 
 
 Challenges we ran into 
 
-The words being guessed if was a word sperated by a space was not properly allowing the user ever guess right even if all the 
-characters they guessed were right. This challenge was easily solved and the game properly allow users to get win the game even all 
-the characters there guessed is correct
+The words being guessed if was a word seperated by a space was not properly allowing the user to win even if all the 
+characters they guessed were right. This challenge was easily solved and the game properly allow users to win the game if there 
+guess all the characters correctly
 
 
 Hangman pseudo code 
@@ -27,19 +27,20 @@ This is the pseudo code that I created for the game:
 first hangman dictionary depicts the hangman ascii art 
 
 def clue_display(): take in underscores and seperates each underscore with a space.
-The amount of underscores is determined by the length of our random word
+The amount of underscores is determined by the length of our random word.
 
-def answer_display(): this takes in the random word and seperates in with a space. 
-This will shown if all characters by the user is guessed correctly. Also, the answer will shown 
-at the end of the game the user guessed too many characters incorrectly. 
+def answer_display(): this takes in the random word and seperates it with a space. 
+This will shown if all characters by the user is guessed correctly. Also, the answer will be shown 
+at the end of the game and/or if the user guessed too many characters incorrectly. 
 
 def hangman_display(): this takes in the wrong guesses and display a part of the hangman ascii art 
-for every wrong guess
+for every time they make a wrong guess.
 
-def main(): this takes a random word from a list of words and prompts the user to guess correct characters of 
-the random word. For every character not a alphabetical the user will get a print of invalid input. 
+def main(): this takes a random word from a list of words and prompts the user to guess the correct characters of 
+the random word. For every character guessed that is not alphabetical the user will get a print of invalid input. 
 In addition to any guesses more than one character will a user get a print of invalid input. 
 
-If a charcter is already guess the user will get a print of that character as already been guessed.
-If all the characters have been guessed correctly the user will get a print of "You win". Otherwise if 
-hangman ascii art is fully displayed the user will get a print of "You lose!"
+If a character is already guessed the user will get a print of that character as already been guessed. Characters 
+that have already been guessed won't count as a wrong guess for the user.In the end if all the characters have been 
+guessed correctly the user will get a print of "You win". Otherwise the 
+hangman ascii art will become fully displayed and then the user will get a print of "You lose!"
