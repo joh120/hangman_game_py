@@ -24,14 +24,14 @@ Hangman pseudo code
 
 This is the pseudo code that I created for the game:
 
-first hangman dictionary depicts the hangman ascii art 
+first the hangman dictionary depicts the hangman ascii art. 
 
 def clue_display(): take in underscores and seperates each underscore with a space.
 The amount of underscores is determined by the length of our random word.
 
 def answer_display(): this takes in the random word and seperates it with a space. 
 This will shown if all characters by the user is guessed correctly. Also, the answer will be shown 
-at the end of the game and/or if the user guessed too many characters incorrectly. 
+at the end of the game whether the user win or lose. 
 
 def hangman_display(): this takes in the wrong guesses and display a part of the hangman ascii art 
 for every time they make a wrong guess.
