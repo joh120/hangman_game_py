@@ -43,4 +43,4 @@ In addition to any guesses more than one character will a user get a print of in
 If a character is already guessed the user will get a print of that character as already been guessed. Characters 
 that have already been guessed won't count as a wrong guess for the user.In the end if all the characters have been 
 guessed correctly the user will get a print of "You win". Otherwise the 
-hangman ascii art will become fully displayed and then the user will get a print of "You lose!"
+hangman ascii art will become fully displayed and then the user will get a print of "You lose!".
