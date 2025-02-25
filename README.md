@@ -16,8 +16,8 @@ or the hangman drawing becomes complete.
 Challenges we ran into 
 
 The words being guessed if was a word seperated by a space was not properly allowing the user to win even if all the 
-characters they guessed were right. This challenge was easily solved and the game properly allow users to win the game if there 
-guess all the characters correctly
+characters they guessed were right. This challenge was easily solved and the game now properly allow users to win the game if there 
+guess all the characters correctly.
 
 
 Hangman pseudo code 
